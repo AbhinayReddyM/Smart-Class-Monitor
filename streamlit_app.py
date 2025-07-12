@@ -45,13 +45,11 @@ col3, col4 = st.columns(2)
 with col3:
     if st.button("📡 Start Session (Hand + Emotion)", use_container_width=True):
         venv_python = os.path.join(".venv", "Scripts", "python.exe")
-        hand_proc = subprocess.Popen([venv_python, "hand_raise_detect.py"])
-        emo_proc = subprocess.Popen([venv_python, "emotion_folder_scan.py"])
-
-
-        st.session_state.hand_pid = hand_proc.pid
-        st.session_state.emotion_pid = emo_proc.pid
+        combined_proc = subprocess.Popen([venv_python, "emotion_hand_combined.py"])
+        
+        st.session_state.session_pid = combined_proc.pid
         st.success("🟢 Session started.")
+
 
 with col4:
     if st.button("🛑 Stop Session", use_container_width=True):
