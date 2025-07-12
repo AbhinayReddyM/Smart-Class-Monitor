@@ -23,8 +23,7 @@ Built using **Python, Streamlit, Face Recognition, OpenCV**, and a **pretrained 
 📄 fer.h5, fer.json          → Pretrained Facial Emotion Recognition model
 📄 streamlit_app.py          → Launches the web interface
 📄 mark_attendance.py        → Handles face-based attendance
-📄 emotion_folder_scan.py    → Emotion detection using webcam
-📄 hand_raise_detect.py      → Hand raise detection using webcam
+📄 emotion_hand_combined.py    → Emotion detection + hand raise detection using webcam
 📄 generate_summary.py       → Creates daily summary report
 📄 requirements.txt          → All required packages
 ```
