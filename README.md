@@ -30,7 +30,7 @@ Built using **Python, Streamlit, Face Recognition, OpenCV**, and a **pretrained 
 
 ---
 
-## 🔧 Installation Instructions (for rookies)
+## 🔧 Installation Instructions
 
 Follow this step-by-step 🪜:
 
