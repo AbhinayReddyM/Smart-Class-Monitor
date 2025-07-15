@@ -184,30 +184,6 @@ python generate_summary.py
 
 ---
 
-## 🚫 What NOT to Upload
-
-Be sure to exclude these:
-
-- `.venv/`
-- `__pycache__/`
-- `.vscode/` or `.idea/`
-- `*.pyc`
-- Large image datasets
-- `.DS_Store` (macOS)
-
-Use this `.gitignore`:
-
-```
-.venv/
-__pycache__/
-*.pyc
-*.log
-.DS_Store
-*.jpg
-```
-
----
-
 ## 📬 Credits
 
 **Project Title**: Smart Class Monitor  
