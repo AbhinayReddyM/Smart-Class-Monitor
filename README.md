@@ -26,6 +26,7 @@ Built using **Python, Streamlit, Face Recognition, OpenCV**, and a **pretrained 
 📄 emotion_hand_combined.py    → Emotion detection + hand raise detection using webcam
 📄 generate_summary.py       → Creates daily summary report
 📄 requirements.txt          → All required packages
+📄 dlib-19.22.99-cp310-cp310-win_amd64.whl          → dlib file
 ```
 
 ---
@@ -92,8 +93,7 @@ pip install cmake
 pip install dlib
 ```
 
-If still not working, use the prebuilt `.whl` file from:
-👉 https://www.lfd.uci.edu/~gohlke/pythonlibs/#dlib
+If still not working, use the prebuilt `.whl` file from the uploaded files.
 
 Download the one matching your Python version (e.g., `dlib‑19.22.99‑cp311‑cp311‑win_amd64.whl`), then:
 
